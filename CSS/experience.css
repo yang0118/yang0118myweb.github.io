@@ -1,0 +1,74 @@
+.experience{
+  height: auto;
+  background-color: #FCDAD5;
+  padding: 3.5% 8%;
+  margin-bottom: 1.5em;
+}
+.experience_list {
+  height: auto;
+  background-color: #C8E2B1;
+  padding: 3.5% 8%;
+  margin-bottom: 1.5em;
+}
+.experience table{
+  height: 300px;
+  width: 100%;
+  margin-left: 1em;
+}
+
+.experience td{
+  width: 300px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.experience_box{
+  width: 100%;
+  text-align: center;
+}
+
+.experience_icon{
+  height: 200px;
+  width: 200px;
+}
+.experience_icon:hover {
+  transform: rotate(360deg);
+  transition: 1.25s;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+.experience_wrap{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.text{
+  background-color: floralwhite;
+  padding: 10px;
+}
+.textcontant{
+  max-width: 200px;
+}
+.textcontant h1{
+  text-align: center;
+  width: auto;
+  max-width: 200px;
+}
+.text:hover {
+ transform: translateY(-10px);
+ transition: 0.5s;
+ background-color: #006241;
+ color: floralwhite;
+ }
+ .text:hover .experience_icon{
+  transform: rotate(360deg);
+  transition: 1.25s;
+  border-radius: 50%;
+ }

@@ -1,0 +1,143 @@
+.skill{
+  height: auto;
+  background-color: #BFCAE6;
+  padding: 3.5% 8%;
+  margin-bottom: 1.5em;
+  font-weight: bolder;
+}
+
+
+
+.skill_title {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0, 2);
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1.2s cubic-bezier(.79, .09, .13, .9) forwards;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+  padding-right: 10px ;
+  color: #C9B5D4;
+  background-color: #635BA2;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s 1.5s cubic-bezier(.01, 1.23, 1, -0.04) forwards;
+}
+
+@keyframes animate{
+  100%{
+    transform: scaleX(1);
+  }
+}
+
+.auditor {
+  width: 90%;
+}
+
+.education {
+  width: 80%;
+}
+
+.demo {
+  width: 60%;
+}
+
+.accounting {
+  width: 88%;
+}
+.software {
+  width: 85%;
+}
+
+.write_china {
+  width: 55%;
+}
+
+.write_eng {
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skill_contant{
+  height: 850px;
+  background-color: #FEF889;
+  padding: 3.5% 8%;
+  margin-bottom: 1.5em;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.skill_text{
+  width: 50%;
+  padding-top: 20px;
+  text-align: center;
+}
+.skill_text h1 {
+  padding-top: 20px;
+  width: 100%;
+  opacity: 0;
+}
+.skill_textcontant{
+  height: 420px;
+}
+
+.skill_contant_img_long {
+  height: 700px;
+  width: 100%;
+}
+.skill_contant_img_long:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.skill_contant_img_short {
+  height: 300px;
+  width: 90%;
+}
+.skill_contant_img_short:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.skill_textcontant{
+  min-height: 400px;
+}
+
+.skill_textcontant:hover h1 {
+  opacity: 1;
+  transition: 1s;
+  color: #363636;
+  font-size: 28px;
+}
+
+

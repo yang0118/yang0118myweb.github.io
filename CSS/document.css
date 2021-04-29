@@ -1,0 +1,76 @@
+*{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      line-height: 1.5;
+      font-family: 微軟正黑體;
+      font-weight: 900;
+    }
+
+body{
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #FFFBD1;
+}
+
+
+
+
+.title{
+  height: 300px;
+  background-color: #C9E4D6;
+  padding: 3.5% 8% ;
+  margin: 1.5em 0;
+}
+
+.title_icon{
+  float: right;
+  width: 300px;
+  height: 300px;
+}
+
+.title_icon:hover {
+  transform: rotate(-10deg);
+  border-radius: 25%;
+  transition: 1s;
+}
+
+h1 {
+  padding-bottom: 20px;
+  width: 35%;
+}
+
+h3 {
+  padding-bottom: 20px;
+  font-size: 24px;
+  width: 35%;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+
+
+.title_contant{
+  background-color: #98D0B9;
+  color: white;
+  padding: 3.5% 5%;
+  margin-bottom: 1.5em;
+}
+
+.title_contant_text{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+    
